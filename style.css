@@ -155,17 +155,27 @@ padding: 20px;
 @media only screen and  (min-device-width:320px) and (max-device-width:480px) {
         .header {       
         display: grid;
-       grid-template-rows: repeat(2,1fr);     
-         width: 268px;
-        height: 400px;
-grid-column-gap: 50px;
+       grid-template-columns: repeat(2,1fr);     
+         width: 290px;
+        height: 200px;
+grid-column-gap: 90px;
 }
 .half-width h1 {
-font-size: 20px;
+font-size: 15px;
+}
+.half-width{
+width: 70%;
+}
+.header .link-button{
+font-size: 4px;
+width: 60px;
+background-color: rgb(207, 36, 36);
 }
 .header img{
-width: 100px;
+width:130%;
+margin-right: 20px;
 }
+
 .section-title {
 text-align: center;
 }
@@ -198,14 +208,15 @@ margin-top: -20px;
 margin-left: -20px;
 }
 .heighlights{
-background-color:#ffffff ;
-
+background-color:#e6d6d6 ;
+height: 2100px;
 display: flex;
+flex-wrap: nowrap;
 flex-direction: column;
 justify-content: center;
 width: 80%;
 margin-left: -30px;
-margin-top: 10px;
+margin-top: -10px;
 }
 .heighlight-box{
 font-size:15px;
@@ -213,8 +224,9 @@ padding: 10px;
 position: relative;
 top: 20px;
 margin-bottom: -200px;
+margin-left: 20px;
 width: 90%;
-height:300%;
+height:100%;
 }
 .heighlights img{
 width: 90%;
@@ -226,11 +238,11 @@ top: 150px;
 }
 #highlighting-boxes2{
  position: relative;
-top: 300px;
+top: 200px;
 }
 #highlighting-boxes3{
 position: relative;
-top: 400px;
+top: 100px;
 }
 
 /* for footer */
@@ -242,7 +254,7 @@ width: 70%;
 flex-direction: column;
 margin-top: 100px;
 position: relative;
-top: 400px;
+top: 10px;
 }
 }
 
