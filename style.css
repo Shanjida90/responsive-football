@@ -263,12 +263,13 @@ top: 10px;
 @media (min-width:768px) and (max-width:1024px) {
         .header{
                 display: grid;
-                grid-template-columns:repeat(1,1fr);
+                grid-template-columns:repeat(2,1fr);
                 height: 1000px; 
-    
+        
         }
 .header img{
-width: 80%;
+width: 500px;
+margin-top: 100px;
 }
 .players{
 display: grid;
@@ -280,11 +281,24 @@ margin-right: 90px;
 .heighlights{
 display: flex;
 flex-direction: column;
-background-color: #f7efef;
+background-color: #eeeaea;
 height: 120pc;
 align-items: center;
-margin-left:-200px ;
+margin-left:-100px ;
 }
+.heighlight-box{
+display: flex;
+flex-direction: row;
+width: 650px;
+height: 300px;
+margin-left: 20px;
+}
+.heighlight-box img{
+margin-left: 20px;
+margin-right: 20px;
+width: 300px;
+}
+
 .footer-info{
 position: relative;
 top: 100px;
