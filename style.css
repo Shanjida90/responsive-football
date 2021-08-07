@@ -63,10 +63,10 @@ text-align: center;
 font-size: 2rem;
 }
 .player-box img{
-width: 400px;
+width: 300px;
 }
 .player-box{
-width: 400px;
+width: 300px;
 height: 550px;
 border-radius: 10px;
 margin-left: 5%;
@@ -82,7 +82,7 @@ align-items: center;
 display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-row-gap: 50px;
-padding: 120px;
+/* padding: 120px; */
 margin-left: 50px;
 margin-top: 10px;
 justify-items: center;
@@ -94,9 +94,9 @@ justify-items: center;
 .heighlights {
 display: grid;
 grid-template-columns: repeat(2,1fr);
-padding: 50px;
+/* padding: 50px; */
 background-color: honeydew;
-width: 70pc;
+width: 60pc;
 height: 80pc;
 margin-left: 500px;
 border-radius: 20px;
