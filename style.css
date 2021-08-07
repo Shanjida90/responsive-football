@@ -33,7 +33,7 @@ transition: transform 3s ease-in-out;
 display: flex;
 padding: 20px;
 background-color:#0e0ea8;
-height:600px;
+height:1000px;
 border-radius: 10px;
 }
 .half-width img{
@@ -63,16 +63,20 @@ text-align: center;
 font-size: 2rem;
 }
 .player-box img{
-width: 300px;
+width: 400px;
 }
 .player-box{
-width: 300px;
-height: 500px;
+width: 400px;
+height: 550px;
 border-radius: 10px;
 margin-left: 5%;
 padding: 30px;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
 margin-bottom: -20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .players{
 display: grid;
@@ -81,6 +85,8 @@ grid-row-gap: 50px;
 padding: 120px;
 margin-left: 50px;
 margin-top: 10px;
+justify-items: center;
+
 }
 
 /* styles for third section or bonus part */
@@ -92,8 +98,9 @@ padding: 50px;
 background-color: honeydew;
 width: 70pc;
 height: 80pc;
-margin-left: 200px;
+margin-left: 500px;
 border-radius: 20px;
+
 }
 .heighlight-box{
 display: flex;
