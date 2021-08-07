@@ -265,6 +265,7 @@ top: 10px;
                 display: grid;
                 grid-template-columns:repeat(2,1fr);
                 height: 1000px; 
+                width: 1200px;
         
         }
 .header img{
@@ -274,9 +275,10 @@ margin-top: 100px;
 .players{
 display: grid;
 grid-template-columns: repeat(2,1fr);
-justify-content: center;
+justify-content: space-between;
+align-items: center;
 grid-gap: 30px;
-margin-right: 90px;
+margin-right: -190px;
 }
 .heighlights{
 display: flex;
@@ -298,7 +300,10 @@ margin-left: 20px;
 margin-right: 20px;
 width: 300px;
 }
-
+.heighlight-title h1{
+text-align: center;
+margin-right: 20px;
+}
 .footer-info{
 position: relative;
 top: 100px;
